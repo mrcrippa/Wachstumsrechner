@@ -1,0 +1,23 @@
+In den Wachstumsdaten der Weltgesundheitsorganisation (WHO) bezeichnet LMS eine statistische Methode zur Berechnung
+von Perzentilkurven (z. B. für das Gewicht, die Körpergröße oder den BMI von Kindern).
+
+Da biologische Maße oft nicht symmetrisch normalverteilt sind (Gewicht und BMI sind
+beispielsweise meist rechtsschief), wandelt die LMS-Methode die Daten so um, dass sie mathematisch wie
+eine Normalverteilung behandelt werden können.
+
+Die drei Buchstaben stehen für alters- und geschlechtsspezifische Parameter:
+
+    L (Lambda – Schiefe / Box-Cox-Transformation):
+        Gleicht die Asymmetrie (Schiefe) der Verteilung aus. Durch den Exponenten L wird die Verteilung mathematisch
+         „geradegerückt“, sodass sie einer Normalverteilung entspricht.
+
+    M (Median):
+        Der Zentralwert bzw. die 50. Perzentile für die jeweilige Altersgruppe.
+
+    S (Sigma – Variationskoeffizient):
+        Beschreibt die Streuung der Werte um den Median als relativen Prozentsatz (Standardabweichung geteilt
+        durch den Median).
+
+Mit den drei Werten (L,M,S) aus den WHO-Tabellen lässt sich für jeden konkreten Messwert X eines Kindes
+der exakte Z-Score (Standardabweichungswert) und damit das genaue Perzentil berechnen. Umgekehrt ist es auch
+möglich, den Messwert X anhand des Perzentils zu berechnen.
