@@ -17,6 +17,7 @@ Die Datei „lms_methode.txt“ erläutert kurz, was die LMS-Methode ist und wie
 Diese Methode bezieht sich auf die Berechnung von Perzentilen und Messwerten.
 
 Der Projektordner sollte die folgenden Dateien und Verzeichnisse enthalten:
+    
     who_daten
         tab_lhfa_boys_p_0_5.csv
         tab_lhfa_girls_p_0_5.csv
